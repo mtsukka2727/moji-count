@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("tskka moji count")
-input_text = st.text_area('asdf')
+st.title("tsukka文字数カウントアプリ")
+input_text = st.text_area('文字を入力してください')
 
 is_pushed = st.button("文字カウント")
 
